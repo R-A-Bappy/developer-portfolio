@@ -1,1 +1,1 @@
-### Developer Portfolio static Website
+### Developer Portfolio Static Website
