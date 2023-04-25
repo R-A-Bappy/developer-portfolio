@@ -23,11 +23,12 @@
 }
 
 .header {
+    width: 1519px;
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, 2%;
-    background-size: 600px, 78px;
+    background-size: 800px, 95px;
 }
 
 section {
@@ -38,7 +39,7 @@ section {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 150px;
+    margin: 0 200px;
     padding: 20px 0;
 }
 
@@ -61,7 +62,7 @@ nav li {
 .banner {
     display: flex;
     align-items: center;
-    margin: 0 30px 0 150px;
+    margin: 0 30px 0 200px;
 }
 
 .banner-title {
@@ -85,7 +86,7 @@ nav li {
 }
 
 .banner-img {
-    height: 498px;
+    height: 650px;
 }
 
 .btn-secondary {
@@ -107,7 +108,7 @@ nav li {
 
 /* main section */
 main {
-    max-width: 1020px;
+    max-width: 1120px;
     margin: 0 auto;
 }
 
@@ -174,3 +175,72 @@ main {
 }
 
 /* Resume styles */
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: #757575;
+}
+
+.resume-button {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* contact styles */
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 80px 100px;
+}
+
+.contact .section-title {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.contact .section-description {
+    font-size: 16px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 5px;
+}
+
+input {
+    height: 25px;
+}
+
+.contact a {
+    text-decoration: none;
+    margin-right: 10px;
+}
